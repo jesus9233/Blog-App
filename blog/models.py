@@ -16,3 +16,7 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+# # How to get super user
+# from django.contrib.auth.models import User
+# User.objects.all()
