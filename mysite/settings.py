@@ -121,6 +121,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+LOGIN_REDIRECT_URL = '/'
+
 ALLOWED_HOSTS = ['127.0.0.1:8000', '.pythonanywhere.com']
 
 
